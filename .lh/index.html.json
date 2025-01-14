@@ -1,0 +1,26 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1727791681264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727791705292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n \r\n         <button id=\"run-tests\">Test</button>\r\n         <div id=\"results\"></div>\r\n     </div>\r\n+    <script src=\"merenda.js\"></script>\r\n     <script src=\"script.js\"></script>\r\n-    <script src=\"merenda.js\"></script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727791801909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n \r\n         <button id=\"run-tests\">Test</button>\r\n         <div id=\"results\"></div>\r\n     </div>\r\n-    <script src=\"merenda.js\"></script>\r\n-    <script src=\"script.js\"></script>\r\n+    <script  defer src=\"merenda.js\"></script>\r\n+    <script defer src=\"script.js\"></script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1727791681264,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"it\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Esercizio Somma di K Interi</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body>\r\n    <div class=\"container\">\r\n        <h1>Esercizio: Somma dei primi K interi</h1>\r\n        <p>\r\n            Scrivere un programma che riceva in ingresso un numero positivo <strong>N</strong> \r\n            e determini il massimo intero <strong>K</strong> tale che la somma dei primi K interi \r\n            sia minore o uguale a <strong>N</strong>.\r\n        </p>\r\n        <p>Esempio: se N = 20, K risulta 5, poiché:</p>\r\n        <p><strong>1 + 2 + 3 + 4 + 5 = 15</strong> (mentre con 6 si supera il limite)</p>\r\n        <p style=\"margin-top: 20px; font-style: italic; color: #666;\">\r\n            Se dovete usare ChatGPT per risolvere questo esercizio, forse è vero che l'IA vi ruberà il lavoro! 😜\r\n        </p>\r\n        \r\n        <button id=\"run-tests\">Test</button>\r\n        <div id=\"results\"></div>\r\n    </div>\r\n    <script src=\"script.js\"></script>\r\n    <script  src=\"merenda.js\"></script>\r\n</body>\r\n</html>\r\n"
+        }
+    ]
+}
